@@ -72,7 +72,7 @@ int main(){
 	
 	while(pos!=3){
 		cout<<"lab Darwin futuro"<<endl;
-		cout<<"1.- añadir especie hibrida"<<endl;
+		cout<<"1.- aÃ±adir especie hibrida"<<endl;
 		cout<<"2.- mostrar especies"<<endl;
 		cout<<"3.- salir"<<endl;
 		cin>>pos;
@@ -87,7 +87,7 @@ int main(){
 				cout<<"Puede respirar bajo el agua, tiene pelo, puede volar (1.si/ 0.no): ";
 				cin>>ag>>pe>>vo;
 				catalogo.push_back(new Hibrido(n,e,vo,pe,ag));
-				cout<<"Especia añadidad correctamente"<<endl;
+				cout<<"Especia aÃ±adidad correctamente"<<endl;
 				break;
 			}
 			case 2:{
