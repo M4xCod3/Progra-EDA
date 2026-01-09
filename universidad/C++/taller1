@@ -63,13 +63,13 @@ int main(){
     cin>>nameA;
     cout<<"ingrese la salud del Robot A: ";
     cin>>saludA;
-    cout<<"ingrese el daño de ataque del RobotA: ";
+    cout<<"ingrese el daÃ±o de ataque del RobotA: ";
     cin>>danioA;
     cout<<"ingrese el nombre del Robot B: ";
     cin>>nameB;
     cout<<"ingrese la salud del Robot B: ";
     cin>>saludB;
-    cout<<"ingrese el daño de ataque del RobotB: ";
+    cout<<"ingrese el daÃ±o de ataque del RobotB: ";
     cin>>danioB;
     RobotA*A=new RobotA(nameA, danioA, saludA);
     RobotB*B=new RobotB(nameB, danioB, saludB);
